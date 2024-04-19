@@ -24,3 +24,5 @@
 # Ignore local configuration
 matlab.settings
 
+# Ignore macOS Finder file
+.DS_Store
