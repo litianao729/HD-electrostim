@@ -1,0 +1,16 @@
+.DFLS1150-7 :1 ;Diodes Inc DFLS1150-7, SMT Schottky Diode, 150V 1A, 2-Pin PowerDI 123
+SODFL3718X100N
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN DFLS1150-7
+~!Mouser Part Number (621-DFLS1150-7)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DFLS1150-7?qs=mQbszxtPdlOd7jzC8V7k8A%3D%3D)
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (DFLS1150-7)
+~!Link Datasheet (https://www.diodes.com/assets/Datasheets/ds30593.pdf)
+~!Height (1mm)
+~!3D_Model (DFLS1150-7)
+DFLS1150-7
+1.1!U 2.1!U 

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AZ1117IH-5.0TRG1
+D LDO Voltage Regulators LDO BJT HiCurr 1.35A 10Hz to 10KHz
+K
+F https://www.diodes.com/assets/Datasheets/AZ1117I.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=74LVC1G373DBVRE4
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (6-Pin)
+PinCount=6
+Version=1.1
+Released=2021-10-24 10:46:27
+Downloaded=2023-11-21 18:19:32
+3D=Y

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM358N
+D Low Power Dual Operational Amplifiers
+K
+F https://componentsearchengine.com/Datasheets/5/LM358N.pdf
+$ENDCMP
+#
+#End Doc Library

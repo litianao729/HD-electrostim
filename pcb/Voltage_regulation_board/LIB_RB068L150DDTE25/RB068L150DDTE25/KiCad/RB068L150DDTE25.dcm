@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RB068L150DDTE25
+D ROHM 150V 2A, Rectifier & Schottky Diode, 2-Pin DO-214AC RB068L150DDTE25
+K
+F https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb068l150ddte25-e.pdf
+$ENDCMP
+#
+#End Doc Library

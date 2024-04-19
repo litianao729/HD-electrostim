@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LT8365HMSE#PBF")(type "KiCad")(uri "${KIPRJMOD}/LIB_LT8365HMSE#PBF/LT8365HMSE#PBF/KiCad/LT8365HMSE#PBF.kicad_sym")(options "")(descr ""))
+  (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/LIB_DFLS240-7/DFLS240-7/New_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "DFLS240-7")(type "KiCad")(uri "${KIPRJMOD}/LIB_DFLS240-7/DFLS240-7/KiCad/DFLS240-7.kicad_sym")(options "")(descr ""))
+  (lib (name "DFLS1150-7")(type "KiCad")(uri "${KIPRJMOD}/LIB_DFLS1150-7/DFLS1150-7/KiCad/DFLS1150-7.kicad_sym")(options "")(descr ""))
+  (lib (name "RB068L150DDTE25")(type "KiCad")(uri "${KIPRJMOD}/LIB_RB068L150DDTE25/RB068L150DDTE25/KiCad/RB068L150DDTE25.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,103 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "DFLS240-7"
+   (description "Diodes Inc DFLS240-7, SMT Schottky Diode, 40V 2A, 2-Pin PowerDI 123")
+   (family "DIO")
+   (package "POWERDI123")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/1/DFLS240-7.pdf")
+   (attribute "Mouser Part Number" "621-DFLS240-7")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DFLS240-7?qs=mQbszxtPdlOdicBjJF8M2A%3D%3D")
+   (attribute "Manufacturer_Name" "Diodes Incorporated")
+   (attribute "Manufacturer_Part_Number" "DFLS240-7")
+   (gate
+    (symbol "DFLS240-7")
+    (pin "K" 2 PS)
+    (pin "A" 1 PS)
+   )
+  )
+  (symbol "DFLS240-7"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 200 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 200 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 0) (pt 500 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 200 0) (pt 400 100) (pt 400 -100) (pt 200 0))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 600 0) (rot 0) (mir X) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "POWERDI123"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.4 0.89)
+      (pt 1.4 0.89)
+      (pt 1.4 -0.89)
+      (pt -1.4 -0.89)
+      (pt -1.4 0.89))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.4 0.89)
+      (pt 1.4 0.89))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 1.4 -0.89)
+      (pt -1.4 -0.89))))
+   (leg 1 (pt 1.6 0) (padstack 1))
+   (leg 2 (pt -0.95 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.4 2.2 0 0 0))
+   )
+   (padstack 1
+    (plated false)
+    (pad (layer TCOP) (rectf 0.9 1.4 0 0 90))
+   )
+   (model "DFLS240-7.stp"
+    (euler 90 0 180)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

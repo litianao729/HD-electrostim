@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MAX14757EUE_T'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "MAX14757EUE+T" (!) = "", "SOP65P640X110-16N", "Small Outline Packages", "700-MAX14757EUE+T", "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX14757EUE%2bT?qs=tT6YvvQkxsyGH%2F%2FLSPFCfQ%3D%3D", "Analog Switch ICs Quad SPST +70V Analog Switches", "https://datasheets.maximintegrated.com/en/ds/MAX14756-MAX14758.pdf", "1.1 mm"
+END_PART
+
+END.

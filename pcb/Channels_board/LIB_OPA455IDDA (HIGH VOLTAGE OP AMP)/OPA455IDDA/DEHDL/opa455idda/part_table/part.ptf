@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'OPA455IDDA'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "OPA455IDDA" (!) = "", "SOIC127P600X170-9N", "Small Outline Packages", "595-OPA455IDDA", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA455IDDA?qs=81r%252BiQLm7BTjpF3F0HdzeQ%3D%3D", "150-V, WIDE BANDWIDTH 6.5-MHZ, H", "https://www.ti.com/lit/gpn/OPA455", "1.7 mm"
+END_PART
+
+END.

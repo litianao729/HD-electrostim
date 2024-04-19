@@ -1,0 +1,192 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MAX14757EUE+T"
+   (description "Analog Switch ICs Quad SPST +70V Analog Switches")
+   (family "ANA")
+   (package "SOP65P640X110-16N")
+   (attribute "Datasheet Link" "https://datasheets.maximintegrated.com/en/ds/MAX14756-MAX14758.pdf")
+   (attribute "Geometry.Height" "1.1mm")
+   (attribute "Mouser Part Number" "700-MAX14757EUE+T")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX14757EUE%2bT?qs=tT6YvvQkxsyGH%2F%2FLSPFCfQ%3D%3D")
+   (attribute "Manufacturer_Name" "Analog Devices")
+   (attribute "Manufacturer_Part_Number" "MAX14757EUE+T")
+   (gate
+    (symbol "MAX14757EUE+T")
+    (pin "A1" 1 PS)
+    (pin "B1" 2 PS)
+    (pin "EN1" 3 PS)
+    (pin "VSS" 4 PS)
+    (pin "GND" 5 PS)
+    (pin "EN4" 6 PS)
+    (pin "B4" 7 PS)
+    (pin "A4" 8 PS)
+    (pin "A2" 16 PS)
+    (pin "B2" 15 PS)
+    (pin "EN2" 14 PS)
+    (pin "VDD" 13 PS)
+    (pin "VL" 12 PS)
+    (pin "EN3" 11 PS)
+    (pin "B3" 10 PS)
+    (pin "A3" 9 PS)
+   )
+  )
+  (symbol "MAX14757EUE+T"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -800) (pt 200 -800) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -600) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -700) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -600) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -700) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOP65P640X110-16N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -3.925 2.8)
+      (pt 3.925 2.8)
+      (pt 3.925 -2.8)
+      (pt -3.925 -2.8)
+      (pt -3.925 2.8))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.2 2.5)
+      (pt 2.2 2.5)
+      (pt 2.2 -2.5)
+      (pt -2.2 -2.5)
+      (pt -2.2 2.5))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.2 1.85)
+      (pt -1.55 2.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.85 2.5)
+      (pt 1.85 2.5)
+      (pt 1.85 -2.5)
+      (pt -1.85 -2.5)
+      (pt -1.85 2.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.675 2.85)
+      (pt -2.2 2.85))))
+   (leg 1 (pt -2.938 2.275) (padstack 0))
+   (leg 2 (pt -2.938 1.625) (padstack 0))
+   (leg 3 (pt -2.938 0.975) (padstack 0))
+   (leg 4 (pt -2.938 0.325) (padstack 0))
+   (leg 5 (pt -2.938 -0.325) (padstack 0))
+   (leg 6 (pt -2.938 -0.975) (padstack 0))
+   (leg 7 (pt -2.938 -1.625) (padstack 0))
+   (leg 8 (pt -2.938 -2.275) (padstack 0))
+   (leg 9 (pt 2.938 -2.275) (padstack 0))
+   (leg 10 (pt 2.938 -1.625) (padstack 0))
+   (leg 11 (pt 2.938 -0.975) (padstack 0))
+   (leg 12 (pt 2.938 -0.325) (padstack 0))
+   (leg 13 (pt 2.938 0.325) (padstack 0))
+   (leg 14 (pt 2.938 0.975) (padstack 0))
+   (leg 15 (pt 2.938 1.625) (padstack 0))
+   (leg 16 (pt 2.938 2.275) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.45 1.475 0 0 0))
+   )
+   (model "MAX14757EUE+T.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX5322EAI+
+D Maxim MAX5322EAI+, 2-channel 12 bit Serial DAC, 28-Pin SSOP
+K
+F https://componentsearchengine.com/Datasheets/2/MAX5322EAI+.pdf
+$ENDCMP
+#
+#End Doc Library

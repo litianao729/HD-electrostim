@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LM358N'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "LM358N" (!) = "", "DIP762W56P254L960H393Q8N", "Dual-In-Line Packages", "926-LM358N", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM358N?qs=QbsRYf82W3EG2VDUre1RfQ%3D%3D", "Low Power Dual Operational Amplifiers", "https://componentsearchengine.com/Datasheets/5/LM358N.pdf", "3.93 mm"
+END_PART
+
+END.

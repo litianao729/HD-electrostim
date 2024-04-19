@@ -1,0 +1,16 @@
+.DFLS240-7 :1 ;Diodes Inc DFLS240-7, SMT Schottky Diode, 40V 2A, 2-Pin PowerDI 123
+POWERDI123
+*STM D
+*NGS
+*PLB 1="A" 2="K"
+*MXP 2
+*DFN DFLS240-7
+~!Mouser Part Number (621-DFLS240-7)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DFLS240-7?qs=mQbszxtPdlOdicBjJF8M2A%3D%3D)
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (DFLS240-7)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/DFLS240-7.pdf)
+~!Height (-)
+~!3D_Model (DFLS240-7)
+DFLS240-7
+1.1!U 2.1!U 

@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=MAX11156ETC+
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=13
+Version=1.1
+Released=2021-08-23 08:41:55
+Downloaded=2023-11-29 15:41:43
+3D=Y

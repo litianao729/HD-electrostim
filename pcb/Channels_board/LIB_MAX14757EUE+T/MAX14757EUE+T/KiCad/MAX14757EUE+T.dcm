@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX14757EUE+T
+D Analog Switch ICs Quad SPST +70V Analog Switches
+K
+F https://datasheets.maximintegrated.com/en/ds/MAX14756-MAX14758.pdf
+$ENDCMP
+#
+#End Doc Library

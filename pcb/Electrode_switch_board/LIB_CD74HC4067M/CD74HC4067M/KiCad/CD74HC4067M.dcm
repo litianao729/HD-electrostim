@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CD74HC4067M
+D High Speed CMOS 16-Ch MUX/DEMUX 24P SOIC Texas Instruments CD74HC4067M, Multiplexer/Demultiplexer Single 16:1, 3 V, 5 V, 24-Pin SOIC
+K
+F http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '74LVC1G373DBVRE4'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "74LVC1G373DBVRE4" (!) = "", "SOT95P280X145-6N", "SOT23 (6-Pin)", "595-74LVC1G373DBVRE4", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D", "IC SNGL D-TYPE LATCH SOT23-6", "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373", "1.45 mm"
+END_PART
+
+END.

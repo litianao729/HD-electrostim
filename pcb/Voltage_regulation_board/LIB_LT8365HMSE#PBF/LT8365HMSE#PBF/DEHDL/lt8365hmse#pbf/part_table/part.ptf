@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LT8365HMSE#PBF'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "LT8365HMSE#PBF" (!) = "", "SOP50P490X110-17N", "Small Outline Packages", "584-LT8365HMSE#PBF", "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT8365HMSEPBF?qs=GBLSl2Akirvi5%252BAyHwg2vw%3D%3D", "Switching Voltage Regulators 60VIN Boost/SEPIC/Inv Conv 1.5A/150 PR S", "https://www.analog.com/media/en/technical-documentation/data-sheets/LT8365.pdf", "1.1 mm"
+END_PART
+
+END.

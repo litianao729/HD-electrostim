@@ -1,0 +1,125 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "DFLS1150-7"
+   (description "Diodes Inc DFLS1150-7, SMT Schottky Diode, 150V 1A, 2-Pin PowerDI 123")
+   (family "DIO")
+   (package "SODFL3718X100N")
+   (attribute "Datasheet Link" "https://www.diodes.com/assets/Datasheets/ds30593.pdf")
+   (attribute "Geometry.Height" "1mm")
+   (attribute "Mouser Part Number" "621-DFLS1150-7")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DFLS1150-7?qs=mQbszxtPdlOd7jzC8V7k8A%3D%3D")
+   (attribute "Manufacturer_Name" "Diodes Incorporated")
+   (attribute "Manufacturer_Part_Number" "DFLS1150-7")
+   (gate
+    (symbol "DFLS1150-7")
+    (pin "K" 1 PS)
+    (pin "A" 2 PS)
+   )
+  )
+  (symbol "DFLS1150-7"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 300 100) (pt 300 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 100) (pt 340 100) (pt 340 60))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 -100) (pt 260 -100) (pt 260 -60))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 300 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 500 0) (pt 600 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 300 0) (pt 500 100) (pt 500 -100) (pt 300 0))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 100 0) (rot 0) (mir 0) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 700 0) (rot 0) (mir X) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SODFL3718X100N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.3 1.115)
+      (pt 2.3 1.115)
+      (pt 2.3 -1.115)
+      (pt -2.3 -1.115)
+      (pt -2.3 1.115))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.4 0.89)
+      (pt 1.4 0.89)
+      (pt 1.4 -0.89)
+      (pt -1.4 -0.89)
+      (pt -1.4 0.89))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.4 0.34)
+      (pt -0.85 0.89))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.15 0.89)
+      (pt 1.4 0.89))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.4 -0.89)
+      (pt 1.4 -0.89))))
+   (leg 1 (pt -1.6 0) (padstack 0))
+   (leg 2 (pt 1.6 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.1 1.27 0 0 90))
+   )
+   (model "DFLS1150-7.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

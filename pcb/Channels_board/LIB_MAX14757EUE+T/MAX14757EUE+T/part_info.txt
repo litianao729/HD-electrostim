@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=MAX14757EUE+T
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=16
+Version=1.1
+Released=2020-04-04 02:54:28
+Downloaded=2023-11-21 18:20:01
+3D=Y

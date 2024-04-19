@@ -1,0 +1,16 @@
+.AZ1117IH-5.0TRG1 :1 ;LDO Voltage Regulators LDO BJT HiCurr 1.35A 10Hz to 10KHz
+SOT230P700X170-4N
+*STM IC
+*NGS
+*PLB 1="ADJ/GND" 2="OUTPUT" 3="INPUT" 4="VOUT"
+*MXP 4
+*DFN AZ1117IH-5.0TRG1
+~!Mouser Part Number (621-AZ1117IH-5.0TRG1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AZ1117IH-5.0TRG1?qs=cpo3%2FpBou2jpUVbxjr50ag%3D%3D)
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (AZ1117IH-5.0TRG1)
+~!Link Datasheet (https://www.diodes.com/assets/Datasheets/AZ1117I.pdf)
+~!Height (1.7mm)
+~!3D_Model (AZ1117IH-5.0TRG1)
+AZ1117IH-5.0TRG1
+1.1!U 2.1!U 3.1!U 4.1!U 

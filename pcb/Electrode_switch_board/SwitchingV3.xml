@@ -1,0 +1,2492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/tianaoli/Library/CloudStorage/OneDrive-JohnsHopkins/Electrostimulator/electrostimulatorv3/electrostimulatorV3_pcbdesign/SwitchingV3/SwitchingV3.kicad_sch</source>
+    <date>2023 December 08, Friday 15:54:25</date>
+    <tool>Eeschema 7.0.6-0</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>SwitchingV3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/MUXS/" tstamps="/637621f1-376c-4abb-ba66-6e1c4b59d181/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>muxs.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Latch1/" tstamps="/2a6515e7-5ced-4017-8a05-daa50c84ffb6/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>latch1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Latch2/" tstamps="/62ab6a76-788b-460a-88cf-52e3d21e9672/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>latch2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>aswitch.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Electrodes/" tstamps="/91ea7f81-bbd7-4ca1-ba8a-efc09fd19526/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>electrodes.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Conn_01x04_Socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Socket" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SwitchingV3.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87c2f246-5765-42cb-8421-1983f7726301</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02_Socket</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SwitchingV3.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b69cfa1-ea51-4f17-b508-1b80e0b98d49</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x07_Socket</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x07_Socket" description="Generic connector, single row, 01x07, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SwitchingV3.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x07, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6aeb3b52-3875-4801-899c-fcecd3ba594f</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>SN74LVC1G3157DBVR</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://componentsearchengine.com/Datasheets/1/SN74LVC1G3157DBVR.pdf</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">SN74LVC1G3157DBVR</field>
+        <field name="Mouser Part Number">595-SN74LVC1G3157DBV</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1G3157DBVR?qs=PVVDbbWpW3ID6l2sElWeMw%3D%3D</field>
+      </fields>
+      <libsource lib="SN74LVC1G3157DBVR" part="SN74LVC1G3157DBVR" description="SINGLE-POLE, DOUBLE-THROW ANALOG SWITCH"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-SN74LVC1G3157DBV"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1G3157DBVR?qs=PVVDbbWpW3ID6l2sElWeMw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="SN74LVC1G3157DBVR"/>
+      <property name="Sheetname" value="MUXS"/>
+      <property name="Sheetfile" value="muxs.kicad_sch"/>
+      <property name="ki_description" value="SINGLE-POLE, DOUBLE-THROW ANALOG SWITCH"/>
+      <sheetpath names="/MUXS/" tstamps="/637621f1-376c-4abb-ba66-6e1c4b59d181/"/>
+      <tstamps>06db2348-0c1d-49b8-a0c6-e26a794af28c</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>CD74HC4067M</value>
+      <footprint>cd74hc4067m:SOIC127P1030X265-24N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <fields>
+        <field name="Height">2.65</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">CD74HC4067M</field>
+        <field name="Mouser Part Number">595-CD74HC4067M</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD74HC4067M?qs=DcvZ7Fltd5zoWTm6dRwGeQ%3D%3D</field>
+      </fields>
+      <libsource lib="CD74HC4067M" part="CD74HC4067M" description="High Speed CMOS 16-Ch MUX/DEMUX 24P SOIC Texas Instruments CD74HC4067M, Multiplexer/Demultiplexer Single 16:1, 3 V, 5 V, 24-Pin SOIC"/>
+      <property name="Height" value="2.65"/>
+      <property name="Mouser Part Number" value="595-CD74HC4067M"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD74HC4067M?qs=DcvZ7Fltd5zoWTm6dRwGeQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="CD74HC4067M"/>
+      <property name="Sheetname" value="MUXS"/>
+      <property name="Sheetfile" value="muxs.kicad_sch"/>
+      <property name="ki_description" value="High Speed CMOS 16-Ch MUX/DEMUX 24P SOIC Texas Instruments CD74HC4067M, Multiplexer/Demultiplexer Single 16:1, 3 V, 5 V, 24-Pin SOIC"/>
+      <sheetpath names="/MUXS/" tstamps="/637621f1-376c-4abb-ba66-6e1c4b59d181/"/>
+      <tstamps>b95dc197-051f-4a97-a20b-fed87fcd5748</tstamps>
+    </comp>
+    <comp ref="IC3">
+      <value>CD74HC4067M</value>
+      <footprint>cd74hc4067m:SOIC127P1030X265-24N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <fields>
+        <field name="Height">2.65</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">CD74HC4067M</field>
+        <field name="Mouser Part Number">595-CD74HC4067M</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD74HC4067M?qs=DcvZ7Fltd5zoWTm6dRwGeQ%3D%3D</field>
+      </fields>
+      <libsource lib="CD74HC4067M" part="CD74HC4067M" description="High Speed CMOS 16-Ch MUX/DEMUX 24P SOIC Texas Instruments CD74HC4067M, Multiplexer/Demultiplexer Single 16:1, 3 V, 5 V, 24-Pin SOIC"/>
+      <property name="Height" value="2.65"/>
+      <property name="Mouser Part Number" value="595-CD74HC4067M"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD74HC4067M?qs=DcvZ7Fltd5zoWTm6dRwGeQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="CD74HC4067M"/>
+      <property name="Sheetname" value="MUXS"/>
+      <property name="Sheetfile" value="muxs.kicad_sch"/>
+      <property name="ki_description" value="High Speed CMOS 16-Ch MUX/DEMUX 24P SOIC Texas Instruments CD74HC4067M, Multiplexer/Demultiplexer Single 16:1, 3 V, 5 V, 24-Pin SOIC"/>
+      <sheetpath names="/MUXS/" tstamps="/637621f1-376c-4abb-ba66-6e1c4b59d181/"/>
+      <tstamps>79a99610-b798-4ff7-aff8-7c9c02f8ae89</tstamps>
+    </comp>
+    <comp ref="IC4">
+      <value>SN74LVC1G3157DBVR</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://componentsearchengine.com/Datasheets/1/SN74LVC1G3157DBVR.pdf</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">SN74LVC1G3157DBVR</field>
+        <field name="Mouser Part Number">595-SN74LVC1G3157DBV</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1G3157DBVR?qs=PVVDbbWpW3ID6l2sElWeMw%3D%3D</field>
+      </fields>
+      <libsource lib="SN74LVC1G3157DBVR" part="SN74LVC1G3157DBVR" description="SINGLE-POLE, DOUBLE-THROW ANALOG SWITCH"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-SN74LVC1G3157DBV"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1G3157DBVR?qs=PVVDbbWpW3ID6l2sElWeMw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="SN74LVC1G3157DBVR"/>
+      <property name="Sheetname" value="MUXS"/>
+      <property name="Sheetfile" value="muxs.kicad_sch"/>
+      <property name="ki_description" value="SINGLE-POLE, DOUBLE-THROW ANALOG SWITCH"/>
+      <sheetpath names="/MUXS/" tstamps="/637621f1-376c-4abb-ba66-6e1c4b59d181/"/>
+      <tstamps>1ec34b7c-28a7-4b47-b93f-0e5c2036efaf</tstamps>
+    </comp>
+    <comp ref="IC5">
+      <value>CD74HC4067M</value>
+      <footprint>cd74hc4067m:SOIC127P1030X265-24N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <fields>
+        <field name="Height">2.65</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">CD74HC4067M</field>
+        <field name="Mouser Part Number">595-CD74HC4067M</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD74HC4067M?qs=DcvZ7Fltd5zoWTm6dRwGeQ%3D%3D</field>
+      </fields>
+      <libsource lib="CD74HC4067M" part="CD74HC4067M" description="High Speed CMOS 16-Ch MUX/DEMUX 24P SOIC Texas Instruments CD74HC4067M, Multiplexer/Demultiplexer Single 16:1, 3 V, 5 V, 24-Pin SOIC"/>
+      <property name="Height" value="2.65"/>
+      <property name="Mouser Part Number" value="595-CD74HC4067M"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD74HC4067M?qs=DcvZ7Fltd5zoWTm6dRwGeQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="CD74HC4067M"/>
+      <property name="Sheetname" value="MUXS"/>
+      <property name="Sheetfile" value="muxs.kicad_sch"/>
+      <property name="ki_description" value="High Speed CMOS 16-Ch MUX/DEMUX 24P SOIC Texas Instruments CD74HC4067M, Multiplexer/Demultiplexer Single 16:1, 3 V, 5 V, 24-Pin SOIC"/>
+      <sheetpath names="/MUXS/" tstamps="/637621f1-376c-4abb-ba66-6e1c4b59d181/"/>
+      <tstamps>6860b9ce-f69d-4f53-a8b9-ae37c051db45</tstamps>
+    </comp>
+    <comp ref="IC6">
+      <value>CD74HC4067M</value>
+      <footprint>cd74hc4067m:SOIC127P1030X265-24N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <fields>
+        <field name="Height">2.65</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">CD74HC4067M</field>
+        <field name="Mouser Part Number">595-CD74HC4067M</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD74HC4067M?qs=DcvZ7Fltd5zoWTm6dRwGeQ%3D%3D</field>
+      </fields>
+      <libsource lib="CD74HC4067M" part="CD74HC4067M" description="High Speed CMOS 16-Ch MUX/DEMUX 24P SOIC Texas Instruments CD74HC4067M, Multiplexer/Demultiplexer Single 16:1, 3 V, 5 V, 24-Pin SOIC"/>
+      <property name="Height" value="2.65"/>
+      <property name="Mouser Part Number" value="595-CD74HC4067M"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD74HC4067M?qs=DcvZ7Fltd5zoWTm6dRwGeQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="CD74HC4067M"/>
+      <property name="Sheetname" value="MUXS"/>
+      <property name="Sheetfile" value="muxs.kicad_sch"/>
+      <property name="ki_description" value="High Speed CMOS 16-Ch MUX/DEMUX 24P SOIC Texas Instruments CD74HC4067M, Multiplexer/Demultiplexer Single 16:1, 3 V, 5 V, 24-Pin SOIC"/>
+      <sheetpath names="/MUXS/" tstamps="/637621f1-376c-4abb-ba66-6e1c4b59d181/"/>
+      <tstamps>34003ae9-fa7f-445a-a25f-6860c9786a57</tstamps>
+    </comp>
+    <comp ref="IC7">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch1"/>
+      <property name="Sheetfile" value="latch1.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch1/" tstamps="/2a6515e7-5ced-4017-8a05-daa50c84ffb6/"/>
+      <tstamps>61439a08-4cb4-4f99-94d8-04441ba20739</tstamps>
+    </comp>
+    <comp ref="IC8">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch1"/>
+      <property name="Sheetfile" value="latch1.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch1/" tstamps="/2a6515e7-5ced-4017-8a05-daa50c84ffb6/"/>
+      <tstamps>a3c65a3f-1c8b-4526-b6ce-c2b6edea10df</tstamps>
+    </comp>
+    <comp ref="IC9">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch1"/>
+      <property name="Sheetfile" value="latch1.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch1/" tstamps="/2a6515e7-5ced-4017-8a05-daa50c84ffb6/"/>
+      <tstamps>c009c0a4-aa50-4e09-90bf-31e1ff9cd5f4</tstamps>
+    </comp>
+    <comp ref="IC10">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch1"/>
+      <property name="Sheetfile" value="latch1.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch1/" tstamps="/2a6515e7-5ced-4017-8a05-daa50c84ffb6/"/>
+      <tstamps>4c039c5b-7a22-4a04-a531-882d094f5f6d</tstamps>
+    </comp>
+    <comp ref="IC11">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch1"/>
+      <property name="Sheetfile" value="latch1.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch1/" tstamps="/2a6515e7-5ced-4017-8a05-daa50c84ffb6/"/>
+      <tstamps>106321d5-b590-42a8-affd-182271b86b7f</tstamps>
+    </comp>
+    <comp ref="IC12">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch1"/>
+      <property name="Sheetfile" value="latch1.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch1/" tstamps="/2a6515e7-5ced-4017-8a05-daa50c84ffb6/"/>
+      <tstamps>19a58ce0-92ed-4f3d-8c42-cc44e8b167b6</tstamps>
+    </comp>
+    <comp ref="IC13">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch1"/>
+      <property name="Sheetfile" value="latch1.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch1/" tstamps="/2a6515e7-5ced-4017-8a05-daa50c84ffb6/"/>
+      <tstamps>f1844c3d-4cf4-4839-9d7b-32237a4d8475</tstamps>
+    </comp>
+    <comp ref="IC14">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch1"/>
+      <property name="Sheetfile" value="latch1.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch1/" tstamps="/2a6515e7-5ced-4017-8a05-daa50c84ffb6/"/>
+      <tstamps>1e73ee20-8670-41ac-a432-42c2fdb2b3ef</tstamps>
+    </comp>
+    <comp ref="IC15">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch1"/>
+      <property name="Sheetfile" value="latch1.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch1/" tstamps="/2a6515e7-5ced-4017-8a05-daa50c84ffb6/"/>
+      <tstamps>c70b56e6-74f6-4101-bb81-c737fe0b0f3a</tstamps>
+    </comp>
+    <comp ref="IC16">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch1"/>
+      <property name="Sheetfile" value="latch1.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch1/" tstamps="/2a6515e7-5ced-4017-8a05-daa50c84ffb6/"/>
+      <tstamps>40c26c45-bd74-4775-aefe-22021e779fc1</tstamps>
+    </comp>
+    <comp ref="IC17">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch1"/>
+      <property name="Sheetfile" value="latch1.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch1/" tstamps="/2a6515e7-5ced-4017-8a05-daa50c84ffb6/"/>
+      <tstamps>1d94a287-d227-4345-8b85-ce13544faba1</tstamps>
+    </comp>
+    <comp ref="IC18">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch1"/>
+      <property name="Sheetfile" value="latch1.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch1/" tstamps="/2a6515e7-5ced-4017-8a05-daa50c84ffb6/"/>
+      <tstamps>c63dce7b-14e4-4a7c-a967-67f92b8b7929</tstamps>
+    </comp>
+    <comp ref="IC19">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch1"/>
+      <property name="Sheetfile" value="latch1.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch1/" tstamps="/2a6515e7-5ced-4017-8a05-daa50c84ffb6/"/>
+      <tstamps>bdc52028-f4c4-4a8e-9c98-0ea8b7a2cd0b</tstamps>
+    </comp>
+    <comp ref="IC20">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch1"/>
+      <property name="Sheetfile" value="latch1.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch1/" tstamps="/2a6515e7-5ced-4017-8a05-daa50c84ffb6/"/>
+      <tstamps>2bd6a408-6250-4c29-8a1a-a9ab9854e65d</tstamps>
+    </comp>
+    <comp ref="IC21">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch1"/>
+      <property name="Sheetfile" value="latch1.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch1/" tstamps="/2a6515e7-5ced-4017-8a05-daa50c84ffb6/"/>
+      <tstamps>955d1574-134c-4577-a4d6-c5271a75198d</tstamps>
+    </comp>
+    <comp ref="IC22">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch1"/>
+      <property name="Sheetfile" value="latch1.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch1/" tstamps="/2a6515e7-5ced-4017-8a05-daa50c84ffb6/"/>
+      <tstamps>b57cbccf-59ee-42dd-a17f-5a7820bd3d4d</tstamps>
+    </comp>
+    <comp ref="IC23">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch2"/>
+      <property name="Sheetfile" value="latch2.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch2/" tstamps="/62ab6a76-788b-460a-88cf-52e3d21e9672/"/>
+      <tstamps>594a3809-6217-4a92-b7ab-8dfeec26eb8a</tstamps>
+    </comp>
+    <comp ref="IC24">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch2"/>
+      <property name="Sheetfile" value="latch2.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch2/" tstamps="/62ab6a76-788b-460a-88cf-52e3d21e9672/"/>
+      <tstamps>5f30b540-c321-4380-a5be-cbd7d6b336a8</tstamps>
+    </comp>
+    <comp ref="IC25">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch2"/>
+      <property name="Sheetfile" value="latch2.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch2/" tstamps="/62ab6a76-788b-460a-88cf-52e3d21e9672/"/>
+      <tstamps>6fbb19da-2c08-4e54-8b38-274e5ec22401</tstamps>
+    </comp>
+    <comp ref="IC26">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch2"/>
+      <property name="Sheetfile" value="latch2.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch2/" tstamps="/62ab6a76-788b-460a-88cf-52e3d21e9672/"/>
+      <tstamps>3dbc9a1f-39d0-48a1-a00f-54b3c183f994</tstamps>
+    </comp>
+    <comp ref="IC27">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch2"/>
+      <property name="Sheetfile" value="latch2.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch2/" tstamps="/62ab6a76-788b-460a-88cf-52e3d21e9672/"/>
+      <tstamps>e0e12aaa-a1df-4801-8d1e-bb0decd07a5f</tstamps>
+    </comp>
+    <comp ref="IC28">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch2"/>
+      <property name="Sheetfile" value="latch2.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch2/" tstamps="/62ab6a76-788b-460a-88cf-52e3d21e9672/"/>
+      <tstamps>74d53975-7bb2-4308-9f99-d74c555b29fe</tstamps>
+    </comp>
+    <comp ref="IC29">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch2"/>
+      <property name="Sheetfile" value="latch2.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch2/" tstamps="/62ab6a76-788b-460a-88cf-52e3d21e9672/"/>
+      <tstamps>7f7714f7-1da0-42e2-a890-e3dadcc8786a</tstamps>
+    </comp>
+    <comp ref="IC30">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch2"/>
+      <property name="Sheetfile" value="latch2.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch2/" tstamps="/62ab6a76-788b-460a-88cf-52e3d21e9672/"/>
+      <tstamps>aa11720e-3b8e-4cb9-b5a0-11d54c637b49</tstamps>
+    </comp>
+    <comp ref="IC31">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch2"/>
+      <property name="Sheetfile" value="latch2.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch2/" tstamps="/62ab6a76-788b-460a-88cf-52e3d21e9672/"/>
+      <tstamps>75b80f6b-0b05-45fe-9772-9225dfd08464</tstamps>
+    </comp>
+    <comp ref="IC32">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch2"/>
+      <property name="Sheetfile" value="latch2.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch2/" tstamps="/62ab6a76-788b-460a-88cf-52e3d21e9672/"/>
+      <tstamps>c4dc4776-c80d-4eb6-aa31-4ab2db2e0c83</tstamps>
+    </comp>
+    <comp ref="IC33">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch2"/>
+      <property name="Sheetfile" value="latch2.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch2/" tstamps="/62ab6a76-788b-460a-88cf-52e3d21e9672/"/>
+      <tstamps>55565590-2605-4353-bb74-ac0ceb0a46f0</tstamps>
+    </comp>
+    <comp ref="IC34">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch2"/>
+      <property name="Sheetfile" value="latch2.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch2/" tstamps="/62ab6a76-788b-460a-88cf-52e3d21e9672/"/>
+      <tstamps>557660ee-cd33-457e-9071-ea3800ee4e5f</tstamps>
+    </comp>
+    <comp ref="IC35">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch2"/>
+      <property name="Sheetfile" value="latch2.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch2/" tstamps="/62ab6a76-788b-460a-88cf-52e3d21e9672/"/>
+      <tstamps>92231c13-9575-41c5-8a51-072e1029bb30</tstamps>
+    </comp>
+    <comp ref="IC36">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch2"/>
+      <property name="Sheetfile" value="latch2.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch2/" tstamps="/62ab6a76-788b-460a-88cf-52e3d21e9672/"/>
+      <tstamps>23fcda2e-0927-4672-a7fb-bce0e337af67</tstamps>
+    </comp>
+    <comp ref="IC37">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch2"/>
+      <property name="Sheetfile" value="latch2.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch2/" tstamps="/62ab6a76-788b-460a-88cf-52e3d21e9672/"/>
+      <tstamps>6914b6ab-f655-4ee8-a554-21fec795d9bc</tstamps>
+    </comp>
+    <comp ref="IC38">
+      <value>74LVC1G373DBVRE4</value>
+      <footprint>74lvc1g373dbvre4:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+      </fields>
+      <libsource lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4" description="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-74LVC1G373DBVRE4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G373DBVRE4"/>
+      <property name="Sheetname" value="Latch2"/>
+      <property name="Sheetfile" value="latch2.kicad_sch"/>
+      <property name="ki_description" value="IC SNGL D-TYPE LATCH SOT23-6"/>
+      <sheetpath names="/Latch2/" tstamps="/62ab6a76-788b-460a-88cf-52e3d21e9672/"/>
+      <tstamps>451ab1c7-7094-4d7c-854b-0b460cf50072</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>523f6b50-608a-43d9-a7c6-e75c501efe58</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>acdcc808-7496-481b-bdcd-221c7de7dec9</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>6d9e4305-7fb9-451d-87b7-0c8c71697900</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>a0f92ee0-593d-4c57-b7d0-455e38557127</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>2248ee23-5dbf-4e9d-a88e-ff3470776511</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>eb5f707e-f70a-42e0-9cf7-43ff0d2b1cb5</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>cc0f23cc-d7f7-48be-bcf7-965992833049</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>fc82a2ca-b325-4c03-ab10-f242978f0225</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>d8438804-2287-4c15-a39f-31aa60f99a2e</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>684b36fc-dee3-4dc5-bc0e-5cd25a284108</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>d8535099-e9da-4e35-97db-7b2c62f1503c</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>4460c98a-e533-4a33-8008-787c6f316192</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>1492c2b8-5412-4e06-baab-9658b2583658</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>b550971b-b885-4a21-8fbe-911b75ef681c</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>8c51b301-6d53-4f7b-9bc6-72a4cc471271</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>e1fbeb98-cff6-421c-9bee-8aff7647c2ed</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>0ea505c6-e3e6-4075-aef6-ff89d3c94859</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>f0ffa91a-80c4-4e5b-8b0f-644c8699a51d</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>d6420a72-4669-40a1-ab85-f852fa0045c7</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>57efee57-c6bb-40c5-b31a-5dc2cb4a9420</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>aae836b2-d6d2-4d0a-882c-7833cc4eef69</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>f948fcb5-dd46-49f3-ba69-82345cd077bb</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>1220a277-f09b-465f-8cff-bc5ec7bdb9e9</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>113ff092-f5a2-478d-9891-7816f1df4719</tstamps>
+    </comp>
+    <comp ref="IC39">
+      <value>MAX14757EUE+T</value>
+      <footprint>max14757eue:SOP65P640X110-16N</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX14756-MAX14758.pdf</datasheet>
+      <fields>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">MAX14757EUE+T</field>
+        <field name="Mouser Part Number">700-MAX14757EUE+T</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX14757EUE%2bT?qs=tT6YvvQkxsyGH%2F%2FLSPFCfQ%3D%3D</field>
+      </fields>
+      <libsource lib="MAX14757EUE+T" part="MAX14757EUE+T" description="Analog Switch ICs Quad SPST +70V Analog Switches"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="700-MAX14757EUE+T"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX14757EUE%2bT?qs=tT6YvvQkxsyGH%2F%2FLSPFCfQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Analog Devices"/>
+      <property name="Manufacturer_Part_Number" value="MAX14757EUE+T"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Analog Switch ICs Quad SPST +70V Analog Switches"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>f1fc9527-bff3-4eb1-9dc4-40abc11a95f8</tstamps>
+    </comp>
+    <comp ref="IC40">
+      <value>MAX14757EUE+T</value>
+      <footprint>max14757eue:SOP65P640X110-16N</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX14756-MAX14758.pdf</datasheet>
+      <fields>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">MAX14757EUE+T</field>
+        <field name="Mouser Part Number">700-MAX14757EUE+T</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX14757EUE%2bT?qs=tT6YvvQkxsyGH%2F%2FLSPFCfQ%3D%3D</field>
+      </fields>
+      <libsource lib="MAX14757EUE+T" part="MAX14757EUE+T" description="Analog Switch ICs Quad SPST +70V Analog Switches"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="700-MAX14757EUE+T"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX14757EUE%2bT?qs=tT6YvvQkxsyGH%2F%2FLSPFCfQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Analog Devices"/>
+      <property name="Manufacturer_Part_Number" value="MAX14757EUE+T"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Analog Switch ICs Quad SPST +70V Analog Switches"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>48d127b9-2480-4ac2-80a8-38632d178d75</tstamps>
+    </comp>
+    <comp ref="IC41">
+      <value>MAX14757EUE+T</value>
+      <footprint>max14757eue:SOP65P640X110-16N</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX14756-MAX14758.pdf</datasheet>
+      <fields>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">MAX14757EUE+T</field>
+        <field name="Mouser Part Number">700-MAX14757EUE+T</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX14757EUE%2bT?qs=tT6YvvQkxsyGH%2F%2FLSPFCfQ%3D%3D</field>
+      </fields>
+      <libsource lib="MAX14757EUE+T" part="MAX14757EUE+T" description="Analog Switch ICs Quad SPST +70V Analog Switches"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="700-MAX14757EUE+T"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX14757EUE%2bT?qs=tT6YvvQkxsyGH%2F%2FLSPFCfQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Analog Devices"/>
+      <property name="Manufacturer_Part_Number" value="MAX14757EUE+T"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Analog Switch ICs Quad SPST +70V Analog Switches"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>a0c9660c-47b5-457a-9ad8-81b0a0cda7a5</tstamps>
+    </comp>
+    <comp ref="IC42">
+      <value>MAX14757EUE+T</value>
+      <footprint>max14757eue:SOP65P640X110-16N</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX14756-MAX14758.pdf</datasheet>
+      <fields>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">MAX14757EUE+T</field>
+        <field name="Mouser Part Number">700-MAX14757EUE+T</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX14757EUE%2bT?qs=tT6YvvQkxsyGH%2F%2FLSPFCfQ%3D%3D</field>
+      </fields>
+      <libsource lib="MAX14757EUE+T" part="MAX14757EUE+T" description="Analog Switch ICs Quad SPST +70V Analog Switches"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="700-MAX14757EUE+T"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX14757EUE%2bT?qs=tT6YvvQkxsyGH%2F%2FLSPFCfQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Analog Devices"/>
+      <property name="Manufacturer_Part_Number" value="MAX14757EUE+T"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Analog Switch ICs Quad SPST +70V Analog Switches"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>edeebd2c-155b-4e5a-9f35-0aecd185208d</tstamps>
+    </comp>
+    <comp ref="IC43">
+      <value>MAX14757EUE+T</value>
+      <footprint>max14757eue:SOP65P640X110-16N</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX14756-MAX14758.pdf</datasheet>
+      <fields>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">MAX14757EUE+T</field>
+        <field name="Mouser Part Number">700-MAX14757EUE+T</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX14757EUE%2bT?qs=tT6YvvQkxsyGH%2F%2FLSPFCfQ%3D%3D</field>
+      </fields>
+      <libsource lib="MAX14757EUE+T" part="MAX14757EUE+T" description="Analog Switch ICs Quad SPST +70V Analog Switches"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="700-MAX14757EUE+T"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX14757EUE%2bT?qs=tT6YvvQkxsyGH%2F%2FLSPFCfQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Analog Devices"/>
+      <property name="Manufacturer_Part_Number" value="MAX14757EUE+T"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Analog Switch ICs Quad SPST +70V Analog Switches"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>ce46184e-ee68-4baa-86f2-a8bda433bc99</tstamps>
+    </comp>
+    <comp ref="IC44">
+      <value>MAX14757EUE+T</value>
+      <footprint>max14757eue:SOP65P640X110-16N</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX14756-MAX14758.pdf</datasheet>
+      <fields>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">MAX14757EUE+T</field>
+        <field name="Mouser Part Number">700-MAX14757EUE+T</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX14757EUE%2bT?qs=tT6YvvQkxsyGH%2F%2FLSPFCfQ%3D%3D</field>
+      </fields>
+      <libsource lib="MAX14757EUE+T" part="MAX14757EUE+T" description="Analog Switch ICs Quad SPST +70V Analog Switches"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="700-MAX14757EUE+T"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX14757EUE%2bT?qs=tT6YvvQkxsyGH%2F%2FLSPFCfQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Analog Devices"/>
+      <property name="Manufacturer_Part_Number" value="MAX14757EUE+T"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Analog Switch ICs Quad SPST +70V Analog Switches"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>a67907a1-a12b-4a34-b93f-2a8b40b1278c</tstamps>
+    </comp>
+    <comp ref="IC45">
+      <value>MAX14757EUE+T</value>
+      <footprint>max14757eue:SOP65P640X110-16N</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX14756-MAX14758.pdf</datasheet>
+      <fields>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">MAX14757EUE+T</field>
+        <field name="Mouser Part Number">700-MAX14757EUE+T</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX14757EUE%2bT?qs=tT6YvvQkxsyGH%2F%2FLSPFCfQ%3D%3D</field>
+      </fields>
+      <libsource lib="MAX14757EUE+T" part="MAX14757EUE+T" description="Analog Switch ICs Quad SPST +70V Analog Switches"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="700-MAX14757EUE+T"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX14757EUE%2bT?qs=tT6YvvQkxsyGH%2F%2FLSPFCfQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Analog Devices"/>
+      <property name="Manufacturer_Part_Number" value="MAX14757EUE+T"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Analog Switch ICs Quad SPST +70V Analog Switches"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>8101198a-c144-4b60-9e88-6a0429a9c38b</tstamps>
+    </comp>
+    <comp ref="IC46">
+      <value>MAX14757EUE+T</value>
+      <footprint>max14757eue:SOP65P640X110-16N</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX14756-MAX14758.pdf</datasheet>
+      <fields>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">MAX14757EUE+T</field>
+        <field name="Mouser Part Number">700-MAX14757EUE+T</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX14757EUE%2bT?qs=tT6YvvQkxsyGH%2F%2FLSPFCfQ%3D%3D</field>
+      </fields>
+      <libsource lib="MAX14757EUE+T" part="MAX14757EUE+T" description="Analog Switch ICs Quad SPST +70V Analog Switches"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="700-MAX14757EUE+T"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX14757EUE%2bT?qs=tT6YvvQkxsyGH%2F%2FLSPFCfQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Analog Devices"/>
+      <property name="Manufacturer_Part_Number" value="MAX14757EUE+T"/>
+      <property name="Sheetname" value="Analog Switch"/>
+      <property name="Sheetfile" value="aswitch.kicad_sch"/>
+      <property name="ki_description" value="Analog Switch ICs Quad SPST +70V Analog Switches"/>
+      <sheetpath names="/Analog Switch/" tstamps="/99b582d5-7dcd-4515-b9d2-f944431d36de/"/>
+      <tstamps>72f2acf1-159e-458c-80bb-2608ecbf4dbd</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x16_Pin</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x16_Pin" description="Generic connector, single row, 01x16, script generated"/>
+      <property name="Sheetname" value="Electrodes"/>
+      <property name="Sheetfile" value="electrodes.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x16, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Electrodes/" tstamps="/91ea7f81-bbd7-4ca1-ba8a-efc09fd19526/"/>
+      <tstamps>d7445bac-2a01-4abe-be61-f305e5f521fe</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74LVC1G373DBVRE4" part="74LVC1G373DBVRE4">
+      <description>IC SNGL D-TYPE LATCH SOT23-6</description>
+      <docs>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">74LVC1G373DBVRE4</field>
+        <field name="Footprint">SOT95P280X145-6N</field>
+        <field name="Datasheet">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373</field>
+        <field name="Height">1.45</field>
+        <field name="Mouser Part Number">595-74LVC1G373DBVRE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">74LVC1G373DBVRE4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="LE" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+        <pin num="4" name="Q" type="passive"/>
+        <pin num="5" name="VCC" type="passive"/>
+        <pin num="6" name="~{OE}" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CD74HC4067M" part="CD74HC4067M">
+      <description>High Speed CMOS 16-Ch MUX/DEMUX 24P SOIC Texas Instruments CD74HC4067M, Multiplexer/Demultiplexer Single 16:1, 3 V, 5 V, 24-Pin SOIC</description>
+      <docs>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">CD74HC4067M</field>
+        <field name="Footprint">SOIC127P1030X265-24N</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</field>
+        <field name="Height">2.65</field>
+        <field name="Mouser Part Number">595-CD74HC4067M</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD74HC4067M?qs=DcvZ7Fltd5zoWTm6dRwGeQ%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">CD74HC4067M</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COMMON_INPUT/OUTPUT" type="passive"/>
+        <pin num="2" name="I7" type="passive"/>
+        <pin num="3" name="I6" type="passive"/>
+        <pin num="4" name="I5" type="passive"/>
+        <pin num="5" name="I4" type="passive"/>
+        <pin num="6" name="I3" type="passive"/>
+        <pin num="7" name="I2" type="passive"/>
+        <pin num="8" name="I1" type="passive"/>
+        <pin num="9" name="I0" type="passive"/>
+        <pin num="10" name="S0" type="passive"/>
+        <pin num="11" name="S1" type="passive"/>
+        <pin num="12" name="GND" type="passive"/>
+        <pin num="13" name="S3" type="passive"/>
+        <pin num="14" name="S2" type="passive"/>
+        <pin num="15" name="~{E}" type="passive"/>
+        <pin num="16" name="I15" type="passive"/>
+        <pin num="17" name="I14" type="passive"/>
+        <pin num="18" name="I13" type="passive"/>
+        <pin num="19" name="I12" type="passive"/>
+        <pin num="20" name="I11" type="passive"/>
+        <pin num="21" name="I10" type="passive"/>
+        <pin num="22" name="I9" type="passive"/>
+        <pin num="23" name="I8" type="passive"/>
+        <pin num="24" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Socket">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Socket">
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x07_Socket">
+      <description>Generic connector, single row, 01x07, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x07_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x16_Pin">
+      <description>Generic connector, single row, 01x16, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x16_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MAX14757EUE+T" part="MAX14757EUE+T">
+      <description>Analog Switch ICs Quad SPST +70V Analog Switches</description>
+      <docs>https://datasheets.maximintegrated.com/en/ds/MAX14756-MAX14758.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MAX14757EUE+T</field>
+        <field name="Footprint">SOP65P640X110-16N</field>
+        <field name="Datasheet">https://datasheets.maximintegrated.com/en/ds/MAX14756-MAX14758.pdf</field>
+        <field name="Height">1.1</field>
+        <field name="Mouser Part Number">700-MAX14757EUE+T</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX14757EUE%2bT?qs=tT6YvvQkxsyGH%2F%2FLSPFCfQ%3D%3D</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">MAX14757EUE+T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="B1" type="passive"/>
+        <pin num="3" name="EN1" type="passive"/>
+        <pin num="4" name="VSS" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="EN4" type="passive"/>
+        <pin num="7" name="B4" type="passive"/>
+        <pin num="8" name="A4" type="passive"/>
+        <pin num="9" name="A3" type="passive"/>
+        <pin num="10" name="B3" type="passive"/>
+        <pin num="11" name="EN3" type="passive"/>
+        <pin num="12" name="VL" type="passive"/>
+        <pin num="13" name="VDD" type="passive"/>
+        <pin num="14" name="EN2" type="passive"/>
+        <pin num="15" name="B2" type="passive"/>
+        <pin num="16" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SN74LVC1G3157DBVR" part="SN74LVC1G3157DBVR">
+      <description>SINGLE-POLE, DOUBLE-THROW ANALOG SWITCH</description>
+      <docs>http://componentsearchengine.com/Datasheets/1/SN74LVC1G3157DBVR.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">SN74LVC1G3157DBVR</field>
+        <field name="Footprint">SOT95P280X145-6N</field>
+        <field name="Datasheet">http://componentsearchengine.com/Datasheets/1/SN74LVC1G3157DBVR.pdf</field>
+        <field name="Height">1.45</field>
+        <field name="Mouser Part Number">595-SN74LVC1G3157DBV</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1G3157DBVR?qs=PVVDbbWpW3ID6l2sElWeMw%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">SN74LVC1G3157DBVR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B2" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="B1" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="VCC" type="passive"/>
+        <pin num="6" name="S" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74LVC1G373DBVRE4">
+      <uri>/Users/tianaoli/Library/CloudStorage/OneDrive-JohnsHopkins/Electrostimulator/electrostimulatorv3/electrostimulatorV3_pcbdesign/SwitchingV3/LIB_74LVC1G373DBVRE4/74LVC1G373DBVRE4/KiCad/74LVC1G373DBVRE4.kicad_sym</uri>
+    </library>
+    <library logical="CD74HC4067M">
+      <uri>/Users/tianaoli/Library/CloudStorage/OneDrive-JohnsHopkins/Electrostimulator/electrostimulatorv3/electrostimulatorV3_pcbdesign/SwitchingV3/LIB_CD74HC4067M/CD74HC4067M/KiCad/CD74HC4067M.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="MAX14757EUE+T">
+      <uri>/Users/tianaoli/Library/CloudStorage/OneDrive-JohnsHopkins/Electrostimulator/electrostimulatorv3/electrostimulatorV3_pcbdesign/SwitchingV3/LIB_MAX14757EUE+T/MAX14757EUE+T/KiCad/MAX14757EUE+T.kicad_sym</uri>
+    </library>
+    <library logical="SN74LVC1G3157DBVR">
+      <uri>/Users/tianaoli/Library/CloudStorage/OneDrive-JohnsHopkins/Electrostimulator/electrostimulatorv3/electrostimulatorV3_pcbdesign/SwitchingV3/LIB_SN74LVC1G3157DBVR/SN74LVC1G3157DBVR/KiCad/SN74LVC1G3157DBVR.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC10" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC11" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC12" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC13" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC14" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC15" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC16" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC17" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC18" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC19" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC2" pin="24" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC20" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC21" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC22" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC23" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC24" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC25" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC26" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC27" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC28" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC29" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC3" pin="24" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC30" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC31" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC32" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC33" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC34" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC35" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC36" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC37" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC38" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC39" pin="12" pinfunction="VL" pintype="passive"/>
+      <node ref="IC4" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC40" pin="12" pinfunction="VL" pintype="passive"/>
+      <node ref="IC41" pin="12" pinfunction="VL" pintype="passive"/>
+      <node ref="IC42" pin="12" pinfunction="VL" pintype="passive"/>
+      <node ref="IC43" pin="12" pinfunction="VL" pintype="passive"/>
+      <node ref="IC44" pin="12" pinfunction="VL" pintype="passive"/>
+      <node ref="IC45" pin="12" pinfunction="VL" pintype="passive"/>
+      <node ref="IC46" pin="12" pinfunction="VL" pintype="passive"/>
+      <node ref="IC5" pin="24" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC6" pin="24" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC7" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC8" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC9" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="2" name="+34V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="IC39" pin="4" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC40" pin="4" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC41" pin="4" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC42" pin="4" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC43" pin="4" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC44" pin="4" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC45" pin="4" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC46" pin="4" pinfunction="VSS" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="3" name="-34V">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="IC39" pin="13" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC40" pin="13" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC41" pin="13" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC42" pin="13" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC43" pin="13" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC44" pin="13" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC45" pin="13" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC46" pin="13" pinfunction="VDD" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="4" name="CSOutput1">
+      <node ref="IC39" pin="2" pinfunction="B1" pintype="passive"/>
+      <node ref="IC39" pin="7" pinfunction="B4" pintype="passive"/>
+      <node ref="IC40" pin="2" pinfunction="B1" pintype="passive"/>
+      <node ref="IC40" pin="7" pinfunction="B4" pintype="passive"/>
+      <node ref="IC41" pin="2" pinfunction="B1" pintype="passive"/>
+      <node ref="IC41" pin="7" pinfunction="B4" pintype="passive"/>
+      <node ref="IC42" pin="2" pinfunction="B1" pintype="passive"/>
+      <node ref="IC42" pin="7" pinfunction="B4" pintype="passive"/>
+      <node ref="IC43" pin="2" pinfunction="B1" pintype="passive"/>
+      <node ref="IC43" pin="7" pinfunction="B4" pintype="passive"/>
+      <node ref="IC44" pin="2" pinfunction="B1" pintype="passive"/>
+      <node ref="IC44" pin="7" pinfunction="B4" pintype="passive"/>
+      <node ref="IC45" pin="2" pinfunction="B1" pintype="passive"/>
+      <node ref="IC45" pin="7" pinfunction="B4" pintype="passive"/>
+      <node ref="IC46" pin="2" pinfunction="B1" pintype="passive"/>
+      <node ref="IC46" pin="7" pinfunction="B4" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="5" name="CSOutput2">
+      <node ref="IC39" pin="10" pinfunction="B3" pintype="passive"/>
+      <node ref="IC39" pin="15" pinfunction="B2" pintype="passive"/>
+      <node ref="IC40" pin="10" pinfunction="B3" pintype="passive"/>
+      <node ref="IC40" pin="15" pinfunction="B2" pintype="passive"/>
+      <node ref="IC41" pin="10" pinfunction="B3" pintype="passive"/>
+      <node ref="IC41" pin="15" pinfunction="B2" pintype="passive"/>
+      <node ref="IC42" pin="10" pinfunction="B3" pintype="passive"/>
+      <node ref="IC42" pin="15" pinfunction="B2" pintype="passive"/>
+      <node ref="IC43" pin="10" pinfunction="B3" pintype="passive"/>
+      <node ref="IC43" pin="15" pinfunction="B2" pintype="passive"/>
+      <node ref="IC44" pin="10" pinfunction="B3" pintype="passive"/>
+      <node ref="IC44" pin="15" pinfunction="B2" pintype="passive"/>
+      <node ref="IC45" pin="10" pinfunction="B3" pintype="passive"/>
+      <node ref="IC45" pin="15" pinfunction="B2" pintype="passive"/>
+      <node ref="IC46" pin="10" pinfunction="B3" pintype="passive"/>
+      <node ref="IC46" pin="15" pinfunction="B2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="6" name="D1_1">
+      <node ref="IC3" pin="9" pinfunction="I0" pintype="passive"/>
+      <node ref="IC7" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="7" name="D1_2">
+      <node ref="IC2" pin="9" pinfunction="I0" pintype="passive"/>
+      <node ref="IC23" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="8" name="D2_1">
+      <node ref="IC3" pin="8" pinfunction="I1" pintype="passive"/>
+      <node ref="IC8" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="9" name="D2_2">
+      <node ref="IC2" pin="8" pinfunction="I1" pintype="passive"/>
+      <node ref="IC24" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="10" name="D3_1">
+      <node ref="IC3" pin="7" pinfunction="I2" pintype="passive"/>
+      <node ref="IC9" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="11" name="D3_2">
+      <node ref="IC2" pin="7" pinfunction="I2" pintype="passive"/>
+      <node ref="IC25" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="12" name="D4_1">
+      <node ref="IC10" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="IC3" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="13" name="D4_2">
+      <node ref="IC2" pin="6" pinfunction="I3" pintype="passive"/>
+      <node ref="IC26" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="14" name="D5_1">
+      <node ref="IC11" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="IC3" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="15" name="D5_2">
+      <node ref="IC2" pin="5" pinfunction="I4" pintype="passive"/>
+      <node ref="IC27" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="16" name="D6_1">
+      <node ref="IC12" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="IC3" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="17" name="D6_2">
+      <node ref="IC2" pin="4" pinfunction="I5" pintype="passive"/>
+      <node ref="IC28" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="18" name="D7_1">
+      <node ref="IC13" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="IC3" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="19" name="D7_2">
+      <node ref="IC2" pin="3" pinfunction="I6" pintype="passive"/>
+      <node ref="IC29" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="20" name="D8_1">
+      <node ref="IC14" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="IC3" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="21" name="D8_2">
+      <node ref="IC2" pin="2" pinfunction="I7" pintype="passive"/>
+      <node ref="IC30" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="22" name="D9_1">
+      <node ref="IC15" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="IC3" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="23" name="D9_2">
+      <node ref="IC2" pin="23" pinfunction="I8" pintype="passive"/>
+      <node ref="IC31" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="24" name="D10_1">
+      <node ref="IC16" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="IC3" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="25" name="D10_2">
+      <node ref="IC2" pin="22" pinfunction="I9" pintype="passive"/>
+      <node ref="IC32" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="26" name="D11_1">
+      <node ref="IC17" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="IC3" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="27" name="D11_2">
+      <node ref="IC2" pin="21" pinfunction="I10" pintype="passive"/>
+      <node ref="IC33" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="28" name="D12_1">
+      <node ref="IC18" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="IC3" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="29" name="D12_2">
+      <node ref="IC2" pin="20" pinfunction="I11" pintype="passive"/>
+      <node ref="IC34" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="30" name="D13_1">
+      <node ref="IC19" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="IC3" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="31" name="D13_2">
+      <node ref="IC2" pin="19" pinfunction="I12" pintype="passive"/>
+      <node ref="IC35" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="32" name="D14_1">
+      <node ref="IC20" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="IC3" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="33" name="D14_2">
+      <node ref="IC2" pin="18" pinfunction="I13" pintype="passive"/>
+      <node ref="IC36" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="34" name="D15_1">
+      <node ref="IC21" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="IC3" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="35" name="D15_2">
+      <node ref="IC2" pin="17" pinfunction="I14" pintype="passive"/>
+      <node ref="IC37" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="36" name="D16_1">
+      <node ref="IC22" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="IC3" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="37" name="D16_2">
+      <node ref="IC2" pin="16" pinfunction="I15" pintype="passive"/>
+      <node ref="IC38" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="38" name="D_control">
+      <node ref="IC1" pin="4" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="39" name="E1_1">
+      <node ref="IC6" pin="9" pinfunction="I0" pintype="passive"/>
+      <node ref="IC7" pin="1" pinfunction="LE" pintype="passive"/>
+    </net>
+    <net code="40" name="E1_2">
+      <node ref="IC23" pin="1" pinfunction="LE" pintype="passive"/>
+      <node ref="IC5" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="41" name="E2_1">
+      <node ref="IC6" pin="8" pinfunction="I1" pintype="passive"/>
+      <node ref="IC8" pin="1" pinfunction="LE" pintype="passive"/>
+    </net>
+    <net code="42" name="E2_2">
+      <node ref="IC24" pin="1" pinfunction="LE" pintype="passive"/>
+      <node ref="IC5" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="43" name="E3_1">
+      <node ref="IC6" pin="7" pinfunction="I2" pintype="passive"/>
+      <node ref="IC9" pin="1" pinfunction="LE" pintype="passive"/>
+    </net>
+    <net code="44" name="E3_2">
+      <node ref="IC25" pin="1" pinfunction="LE" pintype="passive"/>
+      <node ref="IC5" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="45" name="E4_1">
+      <node ref="IC10" pin="1" pinfunction="LE" pintype="passive"/>
+      <node ref="IC6" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="46" name="E4_2">
+      <node ref="IC26" pin="1" pinfunction="LE" pintype="passive"/>
+      <node ref="IC5" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="47" name="E5_1">
+      <node ref="IC11" pin="1" pinfunction="LE" pintype="passive"/>
+      <node ref="IC6" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="48" name="E5_2">
+      <node ref="IC27" pin="1" pinfunction="LE" pintype="passive"/>
+      <node ref="IC5" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="49" name="E6_1">
+      <node ref="IC12" pin="1" pinfunction="LE" pintype="passive"/>
+      <node ref="IC6" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="50" name="E6_2">
+      <node ref="IC28" pin="1" pinfunction="LE" pintype="passive"/>
+      <node ref="IC5" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="51" name="E7_1">
+      <node ref="IC13" pin="1" pinfunction="LE" pintype="passive"/>
+      <node ref="IC6" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="52" name="E7_2">
+      <node ref="IC29" pin="1" pinfunction="LE" pintype="passive"/>
+      <node ref="IC5" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="53" name="E8_1">
+      <node ref="IC14" pin="1" pinfunction="LE" pintype="passive"/>
+      <node ref="IC6" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="54" name="E8_2">
+      <node ref="IC30" pin="1" pinfunction="LE" pintype="passive"/>
+      <node ref="IC5" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="55" name="E9_1">
+      <node ref="IC15" pin="1" pinfunction="LE" pintype="passive"/>
+      <node ref="IC6" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="56" name="E9_2">
+      <node ref="IC31" pin="1" pinfunction="LE" pintype="passive"/>
+      <node ref="IC5" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="57" name="E10_1">
+      <node ref="IC16" pin="1" pinfunction="LE" pintype="passive"/>
+      <node ref="IC6" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="58" name="E10_2">
+      <node ref="IC32" pin="1" pinfunction="LE" pintype="passive"/>
+      <node ref="IC5" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="59" name="E11_1">
+      <node ref="IC17" pin="1" pinfunction="LE" pintype="passive"/>
+      <node ref="IC6" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="60" name="E11_2">
+      <node ref="IC33" pin="1" pinfunction="LE" pintype="passive"/>
+      <node ref="IC5" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="61" name="E12_1">
+      <node ref="IC18" pin="1" pinfunction="LE" pintype="passive"/>
+      <node ref="IC6" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="62" name="E12_2">
+      <node ref="IC34" pin="1" pinfunction="LE" pintype="passive"/>
+      <node ref="IC5" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="63" name="E13_1">
+      <node ref="IC19" pin="1" pinfunction="LE" pintype="passive"/>
+      <node ref="IC6" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="64" name="E13_2">
+      <node ref="IC35" pin="1" pinfunction="LE" pintype="passive"/>
+      <node ref="IC5" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="65" name="E14_1">
+      <node ref="IC20" pin="1" pinfunction="LE" pintype="passive"/>
+      <node ref="IC6" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="66" name="E14_2">
+      <node ref="IC36" pin="1" pinfunction="LE" pintype="passive"/>
+      <node ref="IC5" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="67" name="E15_1">
+      <node ref="IC21" pin="1" pinfunction="LE" pintype="passive"/>
+      <node ref="IC6" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="68" name="E15_2">
+      <node ref="IC37" pin="1" pinfunction="LE" pintype="passive"/>
+      <node ref="IC5" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="69" name="E16_1">
+      <node ref="IC22" pin="1" pinfunction="LE" pintype="passive"/>
+      <node ref="IC6" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="70" name="E16_2">
+      <node ref="IC38" pin="1" pinfunction="LE" pintype="passive"/>
+      <node ref="IC5" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="71" name="E_control">
+      <node ref="IC4" pin="4" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="72" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC10" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC10" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC11" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC11" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC12" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC12" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC13" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC13" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC14" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC14" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC15" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC15" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC16" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC16" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC17" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC17" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC18" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC18" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC19" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC19" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC2" pin="12" pinfunction="GND" pintype="passive"/>
+      <node ref="IC2" pin="15" pinfunction="~{E}" pintype="passive"/>
+      <node ref="IC20" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC20" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC21" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC21" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC22" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC22" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC23" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC23" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC24" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC24" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC25" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC25" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC26" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC26" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC27" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC27" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC28" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC28" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC29" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC29" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC3" pin="12" pinfunction="GND" pintype="passive"/>
+      <node ref="IC3" pin="15" pinfunction="~{E}" pintype="passive"/>
+      <node ref="IC30" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC30" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC31" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC31" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC32" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC32" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC33" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC33" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC34" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC34" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC35" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC35" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC36" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC36" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC37" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC37" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC38" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC38" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC39" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="IC4" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC40" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="IC41" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="IC42" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="IC43" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="IC44" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="IC45" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="IC46" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="IC5" pin="12" pinfunction="GND" pintype="passive"/>
+      <node ref="IC5" pin="15" pinfunction="~{E}" pintype="passive"/>
+      <node ref="IC6" pin="12" pinfunction="GND" pintype="passive"/>
+      <node ref="IC6" pin="15" pinfunction="~{E}" pintype="passive"/>
+      <node ref="IC7" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC7" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC8" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC8" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="IC9" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC9" pin="6" pinfunction="~{OE}" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(IC1-B1)">
+      <node ref="IC1" pin="3" pinfunction="B1" pintype="passive"/>
+      <node ref="IC3" pin="1" pinfunction="COMMON_INPUT/OUTPUT" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(IC1-B2)">
+      <node ref="IC1" pin="1" pinfunction="B2" pintype="passive"/>
+      <node ref="IC2" pin="1" pinfunction="COMMON_INPUT/OUTPUT" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(IC4-B1)">
+      <node ref="IC4" pin="3" pinfunction="B1" pintype="passive"/>
+      <node ref="IC6" pin="1" pinfunction="COMMON_INPUT/OUTPUT" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(IC4-B2)">
+      <node ref="IC4" pin="1" pinfunction="B2" pintype="passive"/>
+      <node ref="IC5" pin="1" pinfunction="COMMON_INPUT/OUTPUT" pintype="passive"/>
+    </net>
+    <net code="77" name="Q1_1">
+      <node ref="IC39" pin="3" pinfunction="EN1" pintype="passive"/>
+      <node ref="IC7" pin="4" pinfunction="Q" pintype="passive"/>
+    </net>
+    <net code="78" name="Q1_2">
+      <node ref="IC23" pin="4" pinfunction="Q" pintype="passive"/>
+      <node ref="IC39" pin="14" pinfunction="EN2" pintype="passive"/>
+    </net>
+    <net code="79" name="Q2_1">
+      <node ref="IC39" pin="6" pinfunction="EN4" pintype="passive"/>
+      <node ref="IC8" pin="4" pinfunction="Q" pintype="passive"/>
+    </net>
+    <net code="80" name="Q2_2">
+      <node ref="IC24" pin="4" pinfunction="Q" pintype="passive"/>
+      <node ref="IC39" pin="11" pinfunction="EN3" pintype="passive"/>
+    </net>
+    <net code="81" name="Q3_1">
+      <node ref="IC40" pin="3" pinfunction="EN1" pintype="passive"/>
+      <node ref="IC9" pin="4" pinfunction="Q" pintype="passive"/>
+    </net>
+    <net code="82" name="Q3_2">
+      <node ref="IC25" pin="4" pinfunction="Q" pintype="passive"/>
+      <node ref="IC40" pin="14" pinfunction="EN2" pintype="passive"/>
+    </net>
+    <net code="83" name="Q4_1">
+      <node ref="IC10" pin="4" pinfunction="Q" pintype="passive"/>
+      <node ref="IC40" pin="6" pinfunction="EN4" pintype="passive"/>
+    </net>
+    <net code="84" name="Q4_2">
+      <node ref="IC26" pin="4" pinfunction="Q" pintype="passive"/>
+      <node ref="IC40" pin="11" pinfunction="EN3" pintype="passive"/>
+    </net>
+    <net code="85" name="Q5_1">
+      <node ref="IC11" pin="4" pinfunction="Q" pintype="passive"/>
+      <node ref="IC41" pin="3" pinfunction="EN1" pintype="passive"/>
+    </net>
+    <net code="86" name="Q5_2">
+      <node ref="IC27" pin="4" pinfunction="Q" pintype="passive"/>
+      <node ref="IC41" pin="14" pinfunction="EN2" pintype="passive"/>
+    </net>
+    <net code="87" name="Q6_1">
+      <node ref="IC12" pin="4" pinfunction="Q" pintype="passive"/>
+      <node ref="IC41" pin="6" pinfunction="EN4" pintype="passive"/>
+    </net>
+    <net code="88" name="Q6_2">
+      <node ref="IC28" pin="4" pinfunction="Q" pintype="passive"/>
+      <node ref="IC41" pin="11" pinfunction="EN3" pintype="passive"/>
+    </net>
+    <net code="89" name="Q7_1">
+      <node ref="IC13" pin="4" pinfunction="Q" pintype="passive"/>
+      <node ref="IC42" pin="3" pinfunction="EN1" pintype="passive"/>
+    </net>
+    <net code="90" name="Q7_2">
+      <node ref="IC29" pin="4" pinfunction="Q" pintype="passive"/>
+      <node ref="IC42" pin="14" pinfunction="EN2" pintype="passive"/>
+    </net>
+    <net code="91" name="Q8_1">
+      <node ref="IC14" pin="4" pinfunction="Q" pintype="passive"/>
+      <node ref="IC42" pin="6" pinfunction="EN4" pintype="passive"/>
+    </net>
+    <net code="92" name="Q8_2">
+      <node ref="IC30" pin="4" pinfunction="Q" pintype="passive"/>
+      <node ref="IC42" pin="11" pinfunction="EN3" pintype="passive"/>
+    </net>
+    <net code="93" name="Q9_1">
+      <node ref="IC15" pin="4" pinfunction="Q" pintype="passive"/>
+      <node ref="IC43" pin="3" pinfunction="EN1" pintype="passive"/>
+    </net>
+    <net code="94" name="Q9_2">
+      <node ref="IC31" pin="4" pinfunction="Q" pintype="passive"/>
+      <node ref="IC43" pin="14" pinfunction="EN2" pintype="passive"/>
+    </net>
+    <net code="95" name="Q10_1">
+      <node ref="IC16" pin="4" pinfunction="Q" pintype="passive"/>
+      <node ref="IC43" pin="6" pinfunction="EN4" pintype="passive"/>
+    </net>
+    <net code="96" name="Q10_2">
+      <node ref="IC32" pin="4" pinfunction="Q" pintype="passive"/>
+      <node ref="IC43" pin="11" pinfunction="EN3" pintype="passive"/>
+    </net>
+    <net code="97" name="Q11_1">
+      <node ref="IC17" pin="4" pinfunction="Q" pintype="passive"/>
+      <node ref="IC44" pin="3" pinfunction="EN1" pintype="passive"/>
+    </net>
+    <net code="98" name="Q11_2">
+      <node ref="IC33" pin="4" pinfunction="Q" pintype="passive"/>
+      <node ref="IC44" pin="14" pinfunction="EN2" pintype="passive"/>
+    </net>
+    <net code="99" name="Q12_1">
+      <node ref="IC18" pin="4" pinfunction="Q" pintype="passive"/>
+      <node ref="IC44" pin="6" pinfunction="EN4" pintype="passive"/>
+    </net>
+    <net code="100" name="Q12_2">
+      <node ref="IC34" pin="4" pinfunction="Q" pintype="passive"/>
+      <node ref="IC44" pin="11" pinfunction="EN3" pintype="passive"/>
+    </net>
+    <net code="101" name="Q13_1">
+      <node ref="IC19" pin="4" pinfunction="Q" pintype="passive"/>
+      <node ref="IC45" pin="3" pinfunction="EN1" pintype="passive"/>
+    </net>
+    <net code="102" name="Q13_2">
+      <node ref="IC35" pin="4" pinfunction="Q" pintype="passive"/>
+      <node ref="IC45" pin="14" pinfunction="EN2" pintype="passive"/>
+    </net>
+    <net code="103" name="Q14_1">
+      <node ref="IC20" pin="4" pinfunction="Q" pintype="passive"/>
+      <node ref="IC45" pin="6" pinfunction="EN4" pintype="passive"/>
+    </net>
+    <net code="104" name="Q14_2">
+      <node ref="IC36" pin="4" pinfunction="Q" pintype="passive"/>
+      <node ref="IC45" pin="11" pinfunction="EN3" pintype="passive"/>
+    </net>
+    <net code="105" name="Q15_1">
+      <node ref="IC21" pin="4" pinfunction="Q" pintype="passive"/>
+      <node ref="IC46" pin="3" pinfunction="EN1" pintype="passive"/>
+    </net>
+    <net code="106" name="Q15_2">
+      <node ref="IC37" pin="4" pinfunction="Q" pintype="passive"/>
+      <node ref="IC46" pin="14" pinfunction="EN2" pintype="passive"/>
+    </net>
+    <net code="107" name="Q16_1">
+      <node ref="IC22" pin="4" pinfunction="Q" pintype="passive"/>
+      <node ref="IC46" pin="6" pinfunction="EN4" pintype="passive"/>
+    </net>
+    <net code="108" name="Q16_2">
+      <node ref="IC38" pin="4" pinfunction="Q" pintype="passive"/>
+      <node ref="IC46" pin="11" pinfunction="EN3" pintype="passive"/>
+    </net>
+    <net code="109" name="S">
+      <node ref="IC1" pin="6" pinfunction="S" pintype="passive"/>
+      <node ref="IC4" pin="6" pinfunction="S" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="110" name="S0">
+      <node ref="IC2" pin="10" pinfunction="S0" pintype="passive"/>
+      <node ref="IC3" pin="10" pinfunction="S0" pintype="passive"/>
+      <node ref="IC5" pin="10" pinfunction="S0" pintype="passive"/>
+      <node ref="IC6" pin="10" pinfunction="S0" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="111" name="S1">
+      <node ref="IC2" pin="11" pinfunction="S1" pintype="passive"/>
+      <node ref="IC3" pin="11" pinfunction="S1" pintype="passive"/>
+      <node ref="IC5" pin="11" pinfunction="S1" pintype="passive"/>
+      <node ref="IC6" pin="11" pinfunction="S1" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="112" name="S2">
+      <node ref="IC2" pin="14" pinfunction="S2" pintype="passive"/>
+      <node ref="IC3" pin="14" pinfunction="S2" pintype="passive"/>
+      <node ref="IC5" pin="14" pinfunction="S2" pintype="passive"/>
+      <node ref="IC6" pin="14" pinfunction="S2" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="113" name="S3">
+      <node ref="IC2" pin="13" pinfunction="S3" pintype="passive"/>
+      <node ref="IC3" pin="13" pinfunction="S3" pintype="passive"/>
+      <node ref="IC5" pin="13" pinfunction="S3" pintype="passive"/>
+      <node ref="IC6" pin="13" pinfunction="S3" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="114" name="e1">
+      <node ref="IC39" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="IC39" pin="16" pinfunction="A2" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="115" name="e2">
+      <node ref="IC39" pin="8" pinfunction="A4" pintype="passive"/>
+      <node ref="IC39" pin="9" pinfunction="A3" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="116" name="e3">
+      <node ref="IC40" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="IC40" pin="16" pinfunction="A2" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="117" name="e4">
+      <node ref="IC40" pin="8" pinfunction="A4" pintype="passive"/>
+      <node ref="IC40" pin="9" pinfunction="A3" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="118" name="e5">
+      <node ref="IC41" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="IC41" pin="16" pinfunction="A2" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="119" name="e6">
+      <node ref="IC41" pin="8" pinfunction="A4" pintype="passive"/>
+      <node ref="IC41" pin="9" pinfunction="A3" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="120" name="e7">
+      <node ref="IC42" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="IC42" pin="16" pinfunction="A2" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="121" name="e8">
+      <node ref="IC42" pin="8" pinfunction="A4" pintype="passive"/>
+      <node ref="IC42" pin="9" pinfunction="A3" pintype="passive"/>
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="122" name="e9">
+      <node ref="IC43" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="IC43" pin="16" pinfunction="A2" pintype="passive"/>
+      <node ref="J4" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="123" name="e10">
+      <node ref="IC43" pin="8" pinfunction="A4" pintype="passive"/>
+      <node ref="IC43" pin="9" pinfunction="A3" pintype="passive"/>
+      <node ref="J4" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="124" name="e11">
+      <node ref="IC44" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="IC44" pin="16" pinfunction="A2" pintype="passive"/>
+      <node ref="J4" pin="11" pinfunction="Pin_11" pintype="passive"/>
+    </net>
+    <net code="125" name="e12">
+      <node ref="IC44" pin="8" pinfunction="A4" pintype="passive"/>
+      <node ref="IC44" pin="9" pinfunction="A3" pintype="passive"/>
+      <node ref="J4" pin="12" pinfunction="Pin_12" pintype="passive"/>
+    </net>
+    <net code="126" name="e13">
+      <node ref="IC45" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="IC45" pin="16" pinfunction="A2" pintype="passive"/>
+      <node ref="J4" pin="13" pinfunction="Pin_13" pintype="passive"/>
+    </net>
+    <net code="127" name="e14">
+      <node ref="IC45" pin="8" pinfunction="A4" pintype="passive"/>
+      <node ref="IC45" pin="9" pinfunction="A3" pintype="passive"/>
+      <node ref="J4" pin="14" pinfunction="Pin_14" pintype="passive"/>
+    </net>
+    <net code="128" name="e15">
+      <node ref="IC46" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="IC46" pin="16" pinfunction="A2" pintype="passive"/>
+      <node ref="J4" pin="15" pinfunction="Pin_15" pintype="passive"/>
+    </net>
+    <net code="129" name="e16">
+      <node ref="IC46" pin="8" pinfunction="A4" pintype="passive"/>
+      <node ref="IC46" pin="9" pinfunction="A3" pintype="passive"/>
+      <node ref="J4" pin="16" pinfunction="Pin_16" pintype="passive"/>
+    </net>
+  </nets>
+</export>

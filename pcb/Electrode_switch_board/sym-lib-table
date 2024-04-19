@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "74LVC1G373DBVRE4")(type "KiCad")(uri "${KIPRJMOD}/LIB_74LVC1G373DBVRE4/74LVC1G373DBVRE4/KiCad/74LVC1G373DBVRE4.kicad_sym")(options "")(descr ""))
+  (lib (name "CD74HC4067M")(type "KiCad")(uri "${KIPRJMOD}/LIB_CD74HC4067M/CD74HC4067M/KiCad/CD74HC4067M.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX14757EUE+T")(type "KiCad")(uri "${KIPRJMOD}/LIB_MAX14757EUE+T/MAX14757EUE+T/KiCad/MAX14757EUE+T.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74LVC1G3157DBVR")(type "KiCad")(uri "${KIPRJMOD}/LIB_SN74LVC1G3157DBVR/SN74LVC1G3157DBVR/KiCad/SN74LVC1G3157DBVR.kicad_sym")(options "")(descr ""))
+  (lib (name "DEV-15583")(type "KiCad")(uri "${KIPRJMOD}/DEV-15583/DEV-15583.kicad_sym")(options "")(descr ""))
+)

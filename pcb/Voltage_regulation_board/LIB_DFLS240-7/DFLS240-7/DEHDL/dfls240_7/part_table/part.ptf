@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DFLS240_7'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Diodes Incorporated", "DFLS240-7" (!) = "", "POWERDI123", "Other", "621-DFLS240-7", "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DFLS240-7?qs=mQbszxtPdlOdicBjJF8M2A%3D%3D", "Diodes Inc DFLS240-7, SMT Schottky Diode, 40V 2A, 2-Pin PowerDI 123", "https://componentsearchengine.com/Datasheets/1/DFLS240-7.pdf"
+END_PART
+
+END.

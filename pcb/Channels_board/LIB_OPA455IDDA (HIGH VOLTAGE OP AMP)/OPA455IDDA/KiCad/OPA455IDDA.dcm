@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP OPA455IDDA
+D 150-V, WIDE BANDWIDTH 6.5-MHZ, H
+K
+F https://www.ti.com/lit/gpn/OPA455
+$ENDCMP
+#
+#End Doc Library

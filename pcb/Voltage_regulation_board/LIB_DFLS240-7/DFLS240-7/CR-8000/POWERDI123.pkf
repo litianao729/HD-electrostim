@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "POWERDI123"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "POWERDI123")
+        (spec "default")
+    )
+)

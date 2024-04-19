@@ -1,0 +1,151 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "LM358N"
+   (description "Low Power Dual Operational Amplifiers")
+   (family "ANA")
+   (package "DIP762W56P254L960H393Q8N")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/5/LM358N.pdf")
+   (attribute "Geometry.Height" "3.93mm")
+   (attribute "Mouser Part Number" "926-LM358N")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM358N?qs=QbsRYf82W3EG2VDUre1RfQ%3D%3D")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "LM358N")
+   (gate
+    (symbol "LM358N")
+    (pin "OUT1" 1 PS)
+    (pin "IN1_(-)" 2 PS)
+    (pin "IN1_(+)" 3 PS)
+    (pin "GND" 4 PS)
+    (pin "VCC" 8 PS)
+    (pin "OUT2" 7 PS)
+    (pin "IN2_(-)" 6 PS)
+    (pin "IN2_(+)" 5 PS)
+   )
+  )
+  (symbol "LM358N"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1200 100) (pt 1200 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "DIP762W56P254L960H393Q8N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -4.64 5.05)
+      (pt 4.64 5.05)
+      (pt 4.64 -5.05)
+      (pt -4.64 -5.05)
+      (pt -4.64 5.05))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.3 4.8)
+      (pt 3.3 4.8)
+      (pt 3.3 -4.8)
+      (pt -3.3 -4.8)
+      (pt -3.3 4.8))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -3.3 3.53)
+      (pt -2.03 4.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -4.39 4.8)
+      (pt 3.3 4.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.3 -4.8)
+      (pt 3.3 -4.8))))
+   (leg 1 (pt -3.81 3.81) (padstack 1))
+   (leg 2 (pt -3.81 1.27) (padstack 0))
+   (leg 3 (pt -3.81 -1.27) (padstack 0))
+   (leg 4 (pt -3.81 -3.81) (padstack 0))
+   (leg 5 (pt 3.81 -3.81) (padstack 0))
+   (leg 6 (pt 3.81 -1.27) (padstack 0))
+   (leg 7 (pt 3.81 1.27) (padstack 0))
+   (leg 8 (pt 3.81 3.81) (padstack 0))
+   (padstack 0
+    (hole 0.76)
+    (plated true)
+    (pad (layer TCOP) (round 1.16))
+    (pad (layer INNER) (round 1.16))
+    (pad (layer BCOP) (round 1.16))
+   )
+   (padstack 1
+    (hole 0.76)
+    (plated true)
+    (pad (layer TCOP) (square 1.16))
+    (pad (layer INNER) (round 1.16))
+    (pad (layer BCOP) (square 1.16))
+   )
+   (model "LM358N.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,16 @@
+.MAX5322EAI-plus- :1 ;Maxim MAX5322EAI+, 2-channel 12 bit Serial DAC, 28-Pin SSOP
+SOP65P778X199-28N
+*STM IC
+*NGS
+*PLB 1="N.C._1" 2="N.C._2" 3="UNI/'BIPB'" 4="'SHDN'" 5="'LDAC'" 6="'CLR'" 7="DGND" 8="VCC" 9="DOUT" 10="SCLK" 11="DIN" 12="'CS'" 13="N.C._3" 14="N.C._4" 15="N.C._5" 16="N.C._6" 17="UNI/'BIPA'" 18="OUTA" 19="SGNDA" 20="REFA" 21="VDD" 22="REFB" 23="AGND" 24="SGNDB" 25="OUTB" 26="VSS" 27="N.C._7" 28="N.C._8"
+*MXP 28
+*DFN MAX5322EAI-plus-
+~!Mouser Part Number (700-MAX5322EAI)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX5322EAI%2b?qs=9Cj2FLRihcOa380hSatPGA%3D%3D)
+~!Manufacturer_Name (Maxim Integrated)
+~!Manufacturer_Part_Number (MAX5322EAI+)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/MAX5322EAI+.pdf)
+~!Height (1.99mm)
+~!3D_Model (MAX5322EAI+)
+MAX5322EAI-plus-
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 28.1!U 27.1!U 26.1!U 25.1!U 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 15.1!U 

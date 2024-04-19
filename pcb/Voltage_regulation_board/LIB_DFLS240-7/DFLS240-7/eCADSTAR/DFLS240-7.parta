@@ -1,0 +1,65 @@
+(Japanese_coding: sjis)
+(function "ECS_440956"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-12-07-11:42:32)
+    (utime 2023-05-25-16:05:23)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "DFLS240-7")
+)
+
+
+(pinAssign "ECS_440956"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-12-07-11:42:32)
+    (utime 2023-05-25-16:05:23)
+    (interface
+        (port "1" (symbPinId 1) (portName "A") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "K") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_440956")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "DFLS240-7")
+)
+
+
+(part "DFLS240-7"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-12-07-11:42:32)
+    (utime 2023-05-25-16:05:23)
+    (packageRef "DFLS240-7")
+    (pinAssignRef "ECS_440956")
+    (interface
+        (port "1" (symbPinId 1) (portName "A") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "K") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "Diodes Inc DFLS240-7, SMT Schottky Diode, 40V 2A, 2-Pin PowerDI 123")
+    (property "Mouser_Part_Number" "621-DFLS240-7")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DFLS240-7?qs=mQbszxtPdlOdicBjJF8M2A%3D%3D")
+    (property "Manufacturer_Name" "Diodes Incorporated")
+    (property "Manufacturer_Part_Number" "DFLS240-7")
+    (property "Datasheet_Link" "https://componentsearchengine.com/Datasheets/1/DFLS240-7.pdf")
+)
+
+

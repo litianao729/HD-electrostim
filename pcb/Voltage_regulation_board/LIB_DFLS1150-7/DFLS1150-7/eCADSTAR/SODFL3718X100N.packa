@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "DFLS1150-7"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-01-13-03:12:21)
+    (mountForm default
+        (footprintRef "SODFL3718X100N")
+        (spec "System")
+    )
+)

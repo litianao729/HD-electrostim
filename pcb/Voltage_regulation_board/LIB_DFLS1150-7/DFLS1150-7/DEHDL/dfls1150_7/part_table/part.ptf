@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DFLS1150_7'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Incorporated", "DFLS1150-7" (!) = "", "SODFL3718X100N", "Small Outline Diode Flat Lead", "621-DFLS1150-7", "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DFLS1150-7?qs=mQbszxtPdlOd7jzC8V7k8A%3D%3D", "Diodes Inc DFLS1150-7, SMT Schottky Diode, 150V 1A, 2-Pin PowerDI 123", "https://www.diodes.com/assets/Datasheets/ds30593.pdf", "1 mm"
+END_PART
+
+END.

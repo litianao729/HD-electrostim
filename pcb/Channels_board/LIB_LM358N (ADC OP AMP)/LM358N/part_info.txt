@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=LM358N
+PartCategory=Integrated Circuit
+PackageCategory=Dual-In-Line Packages
+PinCount=8
+Version=3.1
+Released=2017-01-11 19:09:53
+Downloaded=2023-05-26 15:47:26
+3D=Y

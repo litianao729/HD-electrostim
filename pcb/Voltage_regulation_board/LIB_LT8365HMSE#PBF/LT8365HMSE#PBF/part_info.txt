@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=LT8365HMSE#PBF
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=17
+Version=2.1
+Released=2020-10-11 07:04:33
+Downloaded=2024-01-17 15:46:47
+3D=Y

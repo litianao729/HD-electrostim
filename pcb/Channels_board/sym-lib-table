@@ -1,0 +1,11 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Teensy4.0")(type "KiCad")(uri "${KIPRJMOD}/DEV-15583/Teensy4.0.kicad_sym")(options "")(descr ""))
+  (lib (name "LM358N")(type "KiCad")(uri "${KIPRJMOD}/LIB_LM358N (ADC OP AMP)/LM358N/KiCad/LM358N.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX5322EAI+")(type "KiCad")(uri "${KIPRJMOD}/LIB_MAX5322EAI+ (DAC)/MAX5322EAI+/KiCad/MAX5322EAI+.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX11156ETC+")(type "KiCad")(uri "${KIPRJMOD}/LIB_MAX11156ETC+ (1)/MAX11156ETC+/KiCad/MAX11156ETC+.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX14757EUE+T")(type "KiCad")(uri "${KIPRJMOD}/LIB_MAX14757EUE+T/MAX14757EUE+T/KiCad/MAX14757EUE+T.kicad_sym")(options "")(descr ""))
+  (lib (name "OPA455IDDA")(type "KiCad")(uri "${KIPRJMOD}/LIB_OPA455IDDA (HIGH VOLTAGE OP AMP)/OPA455IDDA/KiCad/OPA455IDDA.kicad_sym")(options "")(descr ""))
+  (lib (name "INA149AID")(type "KiCad")(uri "${KIPRJMOD}/ul_INA149AID/INA149AID.kicad_sym")(options "")(descr ""))
+  (lib (name "2023-05-29_16-54-34")(type "KiCad")(uri "${KIPRJMOD}/ul_LM358N/KiCADv6/2023-05-29_16-54-34/2023-05-29_16-54-34.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,16 @@
+.74LVC1G373DBVRE4 :1 ;IC SNGL D-TYPE LATCH SOT23-6
+SOT95P280X145-6N
+*STM IC
+*NGS
+*PLB 1="LE" 2="GND" 3="D" 4="Q" 5="VCC" 6="'OE'"
+*MXP 6
+*DFN 74LVC1G373DBVRE4
+~!Mouser Part Number (595-74LVC1G373DBVRE4)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/74LVC1G373DBVRE4?qs=pajgIaoyDUixBk1O2Qp78w%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (74LVC1G373DBVRE4)
+~!Link Datasheet (http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g373)
+~!Height (1.45mm)
+~!3D_Model (74LVC1G373DBVRE4)
+"74LVC1G373DBVRE4"
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

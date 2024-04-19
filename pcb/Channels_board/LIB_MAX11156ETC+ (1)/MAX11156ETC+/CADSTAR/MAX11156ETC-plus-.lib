@@ -1,0 +1,16 @@
+.MAX11156ETC-plus- :1 ;Analog to Digital Converters - ADC 18-Bit, 500ksps, 5V SAR ADC with Internal Reference in TDFN
+SON50P300X300X80-13N
+*STM IC
+*NGS
+*PLB 1="REFIO" 2="REF" 3="VDD" 4="AIN+" 5="AIN-" 6="GND_1" 7="CNVST" 8="DOUT" 9="SCLK" 10="DIN" 11="OVDD" 12="AGNDS" 13="GND_2"
+*MXP 13
+*DFN MAX11156ETC-plus-
+~!Mouser Part Number (700-MAX11156ETC+)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=700-MAX11156ETC%2B)
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (MAX11156ETC+)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/MAX11156ETC+.pdf)
+~!Height (0.8mm)
+~!3D_Model (MAX11156ETC+)
+MAX11156ETC-plus-
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 8.1!U 7.1!U 

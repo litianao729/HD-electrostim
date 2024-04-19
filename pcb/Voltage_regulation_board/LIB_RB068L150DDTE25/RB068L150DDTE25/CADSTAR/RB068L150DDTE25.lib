@@ -1,0 +1,16 @@
+.RB068L150DDTE25 :1 ;ROHM 150V 2A, Rectifier & Schottky Diode, 2-Pin DO-214AC RB068L150DDTE25
+DIOM5026X220N
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN RB068L150DDTE25
+~!Mouser Part Number (755-RB068L150DDTE25)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RB068L150DDTE25?qs=HXFqYaX1Q2wo%2F7dyRQhxHg%3D%3D)
+~!Manufacturer_Name (ROHM Semiconductor)
+~!Manufacturer_Part_Number (RB068L150DDTE25)
+~!Link Datasheet (https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb068l150ddte25-e.pdf)
+~!Height (2.2mm)
+~!3D_Model (RB068L150DDTE25)
+RB068L150DDTE25
+1.1!U 2.1!U 

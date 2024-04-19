@@ -1,0 +1,9 @@
+Manufacturer=Maxim Integrated
+PartNumber=MAX5322EAI+
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=28
+Version=1.1
+Released=2017-07-06 19:05:23
+Downloaded=2022-10-25 22:08:37
+3D=Y

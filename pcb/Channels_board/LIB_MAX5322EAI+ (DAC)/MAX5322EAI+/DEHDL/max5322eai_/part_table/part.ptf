@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MAX5322EAI_'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Maxim Integrated", "MAX5322EAI+" (!) = "", "SOP65P778X199-28N", "Small Outline Packages", "700-MAX5322EAI", "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX5322EAI%2b?qs=9Cj2FLRihcOa380hSatPGA%3D%3D", "Maxim MAX5322EAI+, 2-channel 12 bit Serial DAC, 28-Pin SSOP", "https://componentsearchengine.com/Datasheets/2/MAX5322EAI+.pdf", "1.99 mm"
+END_PART
+
+END.

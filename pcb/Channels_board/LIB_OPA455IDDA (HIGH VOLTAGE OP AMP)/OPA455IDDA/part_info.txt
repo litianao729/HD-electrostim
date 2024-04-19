@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=OPA455IDDA
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=9
+Version=1.1
+Released=2020-12-27 08:33:53
+Downloaded=2023-05-26 15:45:08
+3D=Y

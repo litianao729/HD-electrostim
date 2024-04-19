@@ -1,0 +1,16 @@
+.MAX14757EUE-plus-T :1 ;Analog Switch ICs Quad SPST +70V Analog Switches
+SOP65P640X110-16N
+*STM IC
+*NGS
+*PLB 1="A1" 2="B1" 3="EN1" 4="VSS" 5="GND" 6="EN4" 7="B4" 8="A4" 9="A3" 10="B3" 11="EN3" 12="VL" 13="VDD" 14="EN2" 15="B2" 16="A2"
+*MXP 16
+*DFN MAX14757EUE-plus-T
+~!Mouser Part Number (700-MAX14757EUE+T)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX14757EUE%2bT?qs=tT6YvvQkxsyGH%2F%2FLSPFCfQ%3D%3D)
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (MAX14757EUE+T)
+~!Link Datasheet (https://datasheets.maximintegrated.com/en/ds/MAX14756-MAX14758.pdf)
+~!Height (1.1mm)
+~!3D_Model (MAX14757EUE+T)
+MAX14757EUE-plus-T
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 16.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DFLS1150-7
+D Diodes Inc DFLS1150-7, SMT Schottky Diode, 150V 1A, 2-Pin PowerDI 123
+K
+F https://www.diodes.com/assets/Datasheets/ds30593.pdf
+$ENDCMP
+#
+#End Doc Library
