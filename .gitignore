@@ -1,52 +1,26 @@
-# Prerequisites
-*.d
+# Arduino
+# Ignore build files
+/build/
+/tmp/
+*.tmp
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Ignore editor backups
+*~
+*.bak
 
-# Linker output
-*.ilk
-*.map
-*.exp
 
-# Precompiled Headers
-*.gch
-*.pch
+# MATLAB
+# Ignore MATLAB auto-generated files
+*.asv
+*.mex*
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Ignore MAT-files (if not needed)
+*.mat
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Ignore Simulink files backup
+*.slx~
+*.mdl~
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Ignore local configuration
+matlab.settings
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
